@@ -42,7 +42,7 @@ const Login = () => {
 				<div style={{ display: !show ? "block" : "none" }}>
 					<input value={mynumber} onChange={(e) => {
 					setnumber(e.target.value) }}
-						placeholder="phone number" />
+						placeholder="country code & phone #" />
 					<br /><br />
 					<div id="recaptcha-container"></div>
 					<button onClick={signin}>Send OTP</button>
