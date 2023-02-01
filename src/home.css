@@ -37,6 +37,19 @@
     text-align: center;
 }
 
+.login-box #phone-input input{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 5px 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
 .login-box input{
     width: 100%;
     border-radius: 6px;

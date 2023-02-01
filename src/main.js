@@ -13,6 +13,7 @@ const Mainpage = () => {
 				<h3>Welcome{auth.currentUser.phoneNumber}</h3>
 				<button style={{ "marginLeft": "20px" }}
 				onClick={logout}>Logout</button>
+				<button style={{ "marginLeft": "60px" }}>Realtor </button>
 			</center>
 		</div>
 	);
