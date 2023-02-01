@@ -3,15 +3,16 @@ import './main.css';
 import './home.css';
 import Cards from './cards.js';
 import Navbar from './navbar.js';
+import Search from './search.js'
 
 const Mainpage = () => {
 
 	return (
-    <>
+    <div>
     <Navbar/>
-    <br/><br/>
+    <Search/><br/><br/>
 		<Cards/>
-    </>
+    </div>
 	);
 }
 
