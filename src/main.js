@@ -3,7 +3,8 @@ import './main.css';
 import './home.css';
 import Cards from './cards.js';
 import Navbar from './navbar.js';
-import Search from './search.js'
+import Search from './search.js';
+import Location from './Location';
 
 const Mainpage = () => {
 
@@ -11,7 +12,8 @@ const Mainpage = () => {
     <div>
     <Navbar/>
     <Search/><br/><br/>
-		<Cards/>
+		<Cards/><br/><br/>
+    <Location/>
     </div>
 	);
 }
