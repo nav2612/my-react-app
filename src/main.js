@@ -8,7 +8,7 @@ const Mainpage = () => {
 
 	return (
     <> 
-    <Search/><br/><br/>
+    <Search/>
     <Cards/>
     <Location/>
     </>
