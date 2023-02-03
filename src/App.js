@@ -1,13 +1,23 @@
 import React from 'react';
-import {auth} from './firebase';
-import {useAuthState} from 'react-firebase-hooks/auth';
-import Login from './login';
-import Mainpage from './main';
+// import Login from './login';
+import Mainpage from './main.js';
+import Navbar from './navbar.js';
+import Login from './login.js';
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+
   
 function App() {
-  const [user] = useAuthState(auth);
   return (
-    user ? <Mainpage/> : <Login/>
+    <>
+    <Router>
+        <Navbar />
+        <Routes>
+        <Route path='/' element={<Mainpage/>} />
+          <Route path='/Login' element={<Login/>} />
+        </Routes>
+      </Router>
+    
+  </>
   );
 }
   
