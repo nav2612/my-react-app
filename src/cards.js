@@ -24,7 +24,7 @@ function Cards() {
            <CardItem
               src='https://ulrichome.com/wp-content/uploads/2018/11/01-13.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
-              label=''
+              label='Luxury'
               path='/'
             /> 
           </ul>
