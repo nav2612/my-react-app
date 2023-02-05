@@ -3,6 +3,7 @@ import { firebase, auth } from './firebase';
 import './home.css';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { Link } from "react-router-dom";
 
 const Login = () => {
 	// Inputs
@@ -33,12 +34,16 @@ const Login = () => {
 	const ValidateOtp = () => {
 		if (otp === null || final === null)
 			return;
-		final.confirm(otp).then((result) => {
-			// success
-		}).catch((err) => {
+
+		const handleConfirm = () => {
+			final.confirm(otp).then(() => {
+			return (<Link to='/OpenHouse'></Link>);
+		}).catch(() => {
 			alert("Wrong code");
-		})
-	}
+		});
+	};
+	return handleConfirm();
+	};
 
 	return (
 		<div className='login-box'>
