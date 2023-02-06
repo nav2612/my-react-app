@@ -9,7 +9,7 @@ const Mainpage = () => {
 	return (
     <React.Fragment> 
     <Search/>
-    {console.log("hello")}
+    {console.log("hello world")}
     <Cards/>
     <Location/>
     </React.Fragment>
