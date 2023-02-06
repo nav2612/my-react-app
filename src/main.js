@@ -7,11 +7,12 @@ import Cards from './Cards.js';
 const Mainpage = () => {
 
 	return (
-    <> 
+    <React.Fragment> 
     <Search/>
+    {console.log("hello world")}
     <Cards/>
     <Location/>
-    </>
+    </React.Fragment>
 	);
 }
 
