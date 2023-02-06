@@ -44,3 +44,34 @@
 .navbar a:hover {
     color:palevioletred;
 }
+
+#dropdown-basic-button{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid rosybrown;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: .8px;
+    display: block;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#dropdown-basic-button:hover{
+    color:palevioletred;
+    transform: scale(1.05);
+}
+
+.dropdown-item{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    padding:0.8rem;
+    letter-spacing: .8px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.5);
+    background-color: #fff;
+    justify-content: space-between;
+}
