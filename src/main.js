@@ -9,7 +9,7 @@ const Mainpage = () => {
 	return (
     <> 
     <Search/>
-
+    <Cards/>
     <Location/>
     </>
 	);
