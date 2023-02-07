@@ -79,7 +79,7 @@ const Login = () => {
 			onChange={(e)=>setConfirmPassword(e.target.value)}
 		/> 
 			</div>  
-			<br /><br /><br />
+			<br/><br/><br/>
 
 			<button id="send-otp" onClick={signin}>Sign Up</button>
 			</div>
