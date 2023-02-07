@@ -23,7 +23,8 @@ const Login = () => {
 	return (
 		<div className='login-box'>
 			<center>
-                <h1>Login for Realtor</h1><br /><br /><br />
+                <h1>Reset Password</h1>
+                <h4>Enter your phone number to send the reset link</h4><br /><br /><br />
 				<div id = 'phone-input'>
 					<PhoneInput country={'ca'}
 					onlyCountries={['ca']}
@@ -31,21 +32,11 @@ const Login = () => {
 					disableDropdown
 					countryCodeEditable={false}
 					value={mynumber} 
-					onChange={(e) => {setnumber(e)}}
-					placeholder="Enter phone number" /><br></br>
-					<div> 
-					<input type="text" name="passw" id="passw" placeholder='Password' value={passw}
-					onChange={(e)=>setPassw(e.target.value)}/> 
-				</div>  
-					<br /><br /><br />
-
+					onChange={(e) => {setnumber(e)}}/><br></br>
+                    <br></br><br></br><br></br><br></br>
 					{/*<div id="recaptcha-container"></div>*/}
-					<button id="send-otp">Login</button>
+					<button id="send-otp">Submit</button>
 				</div>
-				<br></br>
-				<a href='forgot_password'>Forgot password?</a>
-				<br></br><br></br>
-				Not a member? <a href="/signup_realtor">Sign up</a>
 			</center>
 		</div>
 	);
