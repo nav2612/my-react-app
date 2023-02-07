@@ -11,9 +11,8 @@ const navbar = () => {
                 <h1><span><BsFillHouseFill />Open</span>House</h1>
                 <ul className='nav-menu' style={{listStyleType:'none'}}>
                     <DropdownButton id="dropdown-basic-button" title="Login">
-                        
-                        <Dropdown.Item  href="/Login">Realtor</Dropdown.Item>
-                        <Dropdown.Item href="/Login">Customer</Dropdown.Item>
+                        <Dropdown.Item  href="/Login-realtor">Realtor</Dropdown.Item>
+                        <Dropdown.Item href="/Login-customer">Customer</Dropdown.Item>
                     </DropdownButton>
                 </ul>
             </div>
