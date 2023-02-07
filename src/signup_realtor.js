@@ -4,7 +4,7 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
 const signup_realtor = () => {
-	const [mynumber, setnumber] = useState("");
+	var [mynumber, setnumber] = useState("");
 	const [passw, setPassw]=useState(''); 
 	const [show, setShow]=useState(''); 
     const [firstName,setFirstName]=useState("");
