@@ -13,6 +13,7 @@
     "mdb-ui-kit": "^6.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
+    "react-devtools": "^4.27.1",
     "react-dom": "^18.2.0",
     "react-firebase-hooks": "^5.1.1",
     "react-geolocated": "^4.0.3",
