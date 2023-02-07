@@ -81,10 +81,10 @@ const Login = () => {
 			</div>  
 			<br/><br/><br/>
 
-			<button id="send-otp" onClick={signin}>Sign Up</button>
-			</div>
+		<button id="send-otp" onClick={signin}>Sign Up</button>
+		</div>
 				
-			</center>
+		</center>
 		</div>
 	);
 }
