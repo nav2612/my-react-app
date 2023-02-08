@@ -6,7 +6,6 @@ import 'react-phone-input-2/lib/style.css';
 const Login = () => {
 	// Inputs
 	var [mynumber, setnumber] = useState("");
-	const [passw, setPassw]=useState(''); 
 
 	// Sent OTP
 	// const signin = () => {

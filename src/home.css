@@ -63,10 +63,8 @@
     letter-spacing: 2px;
 }
 
-/* body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+    background-image: linear-gradient(to right, #c95b0c , #fcae1e);
     height: 100%;
     max-width: 100%;
-}  */
+} 
