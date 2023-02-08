@@ -7,7 +7,7 @@ const Login = () => {
 	// Inputs
 	var [mynumber, setnumber] = useState("");
 	const [passw, setPassw]=useState(''); 
-
+	const [flag, setFlag] = useState(false);
 	// Sent OTP
 	// const signin = () => {
 	// 	mynumber='+'+ mynumber;
