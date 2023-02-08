@@ -2,23 +2,25 @@ import React, { useState } from 'react';
 import './home.css';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { createBrowserHistory as history} from 'history';
 
 const Login = () => {
 	// Inputs
 	var [mynumber, setnumber] = useState("");
 	const [passw, setPassw]=useState(''); 
-	const [flag, setFlag] = useState(false);
+
 	// Sent OTP
-	// const signin = () => {
-	// 	mynumber='+'+ mynumber;
-		// if (mynumber === "" || mynumber.length < 10) 
-        // {alert("Please enter a valid phone number");
-        // return;}
-		// else{
-		// 	alert("Done");
-			//return <a href ='/openhouse'/>;
-	//}
-	//}
+	const signin = () => 
+	{
+		mynumber='+'+ mynumber;
+		if (mynumber === "" || mynumber.length < 10) 
+        {alert("Please enter a valid phone number");
+        return;}
+		else{
+			alert("Done");
+			history('/openhouse');
+		}		
+	}
 
 	return (
 		<div className='login-box'>
@@ -40,7 +42,7 @@ const Login = () => {
 					<br /><br /><br />
 
 					{/*<div id="recaptcha-container"></div>*/}
-					<button id="send-otp">Login</button>
+					<button id="send-otp" onClick={()=>signin()}>Login</button>
 				</div>
 				<br></br>
 				<a href='forgot_password'>Forgot password?</a>
