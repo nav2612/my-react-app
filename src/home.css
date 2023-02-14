@@ -62,9 +62,9 @@
     font-size: 1.1rem;
     letter-spacing: 2px;
 }
-
-body {
-    background-image: linear-gradient(to right, #c95b0c , #fcae1e);
-    height: 100%;
-    max-width: 100%;
-} 
+body{
+    background-color: aqua;
+    margin:0;
+    padding:0;
+        
+}
